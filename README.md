@@ -114,10 +114,15 @@ first
 gcc -o todolist main.c task_management.c searchandstat.c scheduler.c fileio.c
 ```
 then 
-```bash
-./todolist # MacOS
 
-./todolist.exe # Window
+if you use MacOS :
+```bash
+./todolist 
+```
+
+if you use Window :
+```bash
+./todolist.exe 
 ```
 the file should run properly
 
