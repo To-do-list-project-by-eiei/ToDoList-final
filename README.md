@@ -142,33 +142,108 @@ the file should run properly
 0. Exit
 Select an option:
 ```
+---
 
-###  Sample input
+## 🧪 Test Cases
 
-- ADD function (1)
-1.
-```bash
-CompProg, Linked List practice - Practice linked list operations for homework, 1, 30/04/2025
-```
-2.
-```bash
-CalII, Integration review - Study integration techniques for upcoming exam, 1, 02/05/2025
-```
-more sample input on the file sample_import.txt
+### Test Case 1: Add Task with Valid Input
 
-## expected output
+**Input:**
 ```bash
-Name: CompProg [!]URGENT
-Description:  Debugging session - Fix errors in C program homework
-Status: Pending
-Due Date: 30/04/2025
+Option: 1
+Task name: Complete Assignment
+Description: Finish DSA homework
+Priority: 1
+Due date: 10 05 2025
 ```
+**Expected Output:**
 ```bash
-Name: CalII
-Description:  Integration review - Study integration techniques for upcoming exam
-Status: Pending
-Due Date: 02/05/2025
+Task added successfully!
 ```
+
+### Test Case 2: Invalid Date Input
+**Input:**
+```bash
+Option: 1
+Task name: Test Task
+Due date: 32 13 2025
+```
+**Expected Output:**
+```bash
+Invalid date. Due date not set.
+```
+
+### Test Case 3: Duplicate Task Name
+**Input:**
+```bash
+Option: 1
+Task name: Complete Assignment (existing task)
+```
+**Expected Output:**
+```bash
+Error: A task with this name already exists. Please choose a different name.
+```
+
+### Test Case 4: Search Non-existent Task
+**Input:**
+```bash
+Option: 7
+Search option: 1
+Keyword: NonExistentTask
+```
+**Expected Output:**
+```bash
+No matching tasks found.
+```
+
+### Test Case 5: Complete and Undo Task
+**Input:**
+```bash
+Option: 4
+Task name: Complete Assignment
+Option: 5
+```
+**Expected Output:**
+```bash
+Task 'Complete Assignment' marked as completed!
+Last completed task restored to the list.
+```
+---
+
+## 🧪 Testing
+
+### Running Test Cases
+1. Import test data:
+((tasks_import.txt , sample_tasks.txt))
+```bash
+Option: 10
+Filename: tasks_import.txt
+```
+2. Verify error handling:
+- Try adding duplicate task names
+- Enter invalid dates (32/13/2025)
+- Input out-of-range priorities (0, 4)
+
+3. Test core functionality:
+- Add, edit, delete tasks
+- Complete and undo operations
+- Search with various criteria
+- View statistics
+
+### Performance Testing
+Run performance analysis (Option 17) to see:
+- Operation timing for different data sizes
+- Complexity verification
+- Memory usage statistics
+
+### Edge Cases Tested
+- Empty task list operations
+- Maximum capacity handling (1000+ tasks)
+- Invalid input formats
+- Boundary date values
+- Special characters in task names
+
+
 
 ---
 
