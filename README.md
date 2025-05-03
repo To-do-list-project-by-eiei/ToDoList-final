@@ -76,7 +76,7 @@ It's designed to improve productivity, reduce stress, and provide an organized w
 |-----------|---------|----------------|
 | **Linked List** | Store tasks dynamically | O(1) insertion, O(n) search |
 | **Stack** | Track completed tasks (Undo/Clear) | O(1) push/pop |
-| **Queue** | Sort tasks by urgency | O(n) space |
+| **Queue** | Sort tasks by urgency | O(1) space |
 | **Bubble Sort** | Organize tasks by date/priority | O(n²) time |
 
 ---
