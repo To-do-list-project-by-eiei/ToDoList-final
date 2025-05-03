@@ -1,11 +1,11 @@
-# 📝 To-Do List Application (Data Structures Project)
+#  To-Do List Application (Data Structures Project)
 
 This project is a terminal-based To-Do List application written in **C**, created for the **CPE112 Data Structures** course.  
 It helps users manage tasks with scheduling, reminders, priority adjustment, and statistics using key data structures.
 
 ---
 
-## 📚 Introduction
+##  Introduction
 
 In daily life, tasks often vary in priority and urgency. Traditional to-do lists fail to address:
 - Deadlines approaching
@@ -23,7 +23,7 @@ This project solves those problems by:
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Managing tasks with different levels of urgency is a common challenge.  
 This To-Do List application enables:
@@ -37,32 +37,32 @@ It's designed to improve productivity, reduce stress, and provide an organized w
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ **Task Management**
+-  **Task Management**
   - Add, Edit, and Delete Tasks
   - Assign Due Dates and Priority Levels
   - Tag Tasks for Better Organization
   - Mark Tasks as Completed (with Undo)
   
-- ✅ **Smart Features**
+-  **Smart Features**
   - Automatic Status Updates (Overdue Detection)
   - Priority-based Task Sorting
   - Due Date Validation
   - Duplicate Task Name Prevention
   
-- ✅ **Search & Filter**
+-  **Search & Filter**
   - Search by Name, Description, Priority, Status
   - Filter by Date Range
   - Search by Tags
   - Find Tasks without Due Dates
   
-- ✅ **Views & Statistics**
+-  **Views & Statistics**
   - Standard/Simplified/Enhanced Views
   - Weekly and Monthly Summaries
   - Completion Statistics with Visual Progress Bars
   
-- ✅ **Data Management**
+-  **Data Management**
   - Import Tasks from TXT
   - Export Tasks to Text File
   - Clear Completed Tasks
@@ -70,7 +70,7 @@ It's designed to improve productivity, reduce stress, and provide an organized w
 
 ---
 
-## 🧠 Data Structures Used
+##  Data Structures Used
 
 | Structure | Purpose | Time Complexity |
 |-----------|---------|----------------|
@@ -81,10 +81,10 @@ It's designed to improve productivity, reduce stress, and provide an organized w
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```bash
-📁 ToDoList-DSA/
+ ToDoList-DSA/
 ├── main.c                 # Entry point with menu system
 ├── task_management.c      # Core task operations
 ├── task_management.h      # Task structures and declarations
@@ -101,13 +101,13 @@ It's designed to improve productivity, reduce stress, and provide an organized w
 ---
 
 
-## 💻 How to Run the Code
+##  How to Run the Code
 
-### 🧾 Requirements
+###  Requirements
 - A C compiler (`gcc`)
 - All header files (`scheduler.h`, `task_management.h`, `searchstats.h`) and `main.c` in the same folder
 
-### ⚙️ Compilation
+###  Compilation
 
 first
 ```bash
@@ -144,7 +144,7 @@ Select an option:
 ```
 ---
 
-## 🧪 Test Cases
+##  Test Cases
 
 ### Test Case 1: Add Task with Valid Input
 
@@ -210,7 +210,7 @@ Last completed task restored to the list.
 ```
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Running Test Cases
 1. Import test data:
@@ -248,7 +248,7 @@ Run performance analysis (Option 16 [hidden function] ) to see:
 
 
 
-## 👨‍👩‍👧‍👦 Group Members
+##  Group Members
 
 | Name                        | Student ID    | Role / Responsibilities                    |
 |-----------------------------|---------------|---------------------------------------------|
@@ -269,7 +269,7 @@ Run performance analysis (Option 16 [hidden function] ) to see:
 
 ---
 
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 Special thanks to our professor and TAs for guiding us through the concepts of data structures, which helped us turn theory into a working, real-world project.
 
