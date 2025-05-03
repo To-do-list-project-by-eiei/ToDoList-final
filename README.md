@@ -31,7 +31,6 @@ This To-Do List application enables:
 - Automatic status updates (Pending/Overdue)
 - Undo functionality for task completion
 - Advanced search and filtering capabilities
-- Dashboard view with statistics and progress tracking
 - Import/Export functionality for data persistence
 
 It's designed to improve productivity, reduce stress, and provide an organized workflow in a **command-line interface**.
