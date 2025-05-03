@@ -231,10 +231,9 @@ Filename: tasks_import.txt
 - View statistics
 
 ### Performance Testing
-Run performance analysis (Option 17) to see:
+Run performance analysis (Option 16 [hidden function] ) to see:
 - Operation timing for different data sizes
-- Complexity verification
-- Memory usage statistics
+
 
 ### Edge Cases Tested
 - Empty task list operations
