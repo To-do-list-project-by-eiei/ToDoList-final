@@ -107,7 +107,7 @@ It's designed to improve productivity, reduce stress, and provide an organized w
 
 ###  Requirements
 - A C compiler (`gcc`)
-- All header files (`scheduler.h`, `task_management.h`, `searchstats.h`) and `main.c` in the same folder
+- All header files (`scheduler.h`, `task_management.h`, `searchstats.h`,`fileio.h`) and `main.c` in the same folder
 
 ###  Compilation
 
@@ -268,7 +268,7 @@ Run performance analysis (Option 16 [hidden function] ) to see:
 ### Project Documentation
 
 - **Report & Presentation**: Jointly prepared by Chayanit Kuntanarumitkul and Kulchaya Paipinij
-- **Flowcharts & Diagrams**: Created by Siripitch Chaiyabutra
+- **Flowcharts Diagrams & System Architecture**: Created by Siripitch Chaiyabutra
 - **Code Review & Integration**: Led by Chayanit Kuntanarumitkul
 -  **GitHub Repository**: Managed and maintained by Chayanit Kuntanarumitkul
 
