@@ -72,12 +72,14 @@ It's designed to improve productivity, reduce stress, and provide an organized w
 
 ##  Data Structures Used
 
-| Structure | Purpose | Time Complexity |
-|-----------|---------|----------------|
-| **Linked List** | Store tasks dynamically | O(1) insertion, O(n) search |
-| **Stack** | Track completed tasks (Undo/Clear) | O(1) push/pop |
-| **Queue** | Sort tasks by urgency | O(1) space |
-| **Bubble Sort** | Organize tasks by date/priority | O(n²) time |
+
+| **Structure**   | **Purpose**                              | **Time Complexity**                     |
+|-----------------|------------------------------------------|------------------------------------------|
+| **Linked List** | Store tasks dynamically (add/delete/edit)| Insertion: O(1), Search: O(n)            |
+| **Stack**       | Track completed tasks for Undo/Clear     | Push/Pop: O(1)                           |
+| **Queue**       | Manage task reminders or scheduling flow | Enqueue/Dequeue: O(1)                    |
+| **Bubble Sort** | Organize tasks by date or priority       | Best: O(n), Average/Worst: O(n²)         |
+
 
 ---
 
