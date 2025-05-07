@@ -199,7 +199,7 @@ int main() {
             }
             case 11: {
                 char filename[100];
-                printf("Enter filename for export (default: tasks_export.txt): ");
+                printf("Enter filename for export (default: tasks_export): ");
                 fgets(filename, sizeof(filename), stdin);
                 filename[strcspn(filename, "\n")] = 0;
                 
